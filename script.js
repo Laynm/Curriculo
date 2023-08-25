@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const whatsappIcon = document.createElement("img");
     whatsappIcon.src = "./img/logowhats.png";
 
-    whatsappIcon.classList.add("whatsapp-icon"); // Adicione a classe de estilo
+    whatsappIcon.classList.add("whatsapp-icon"); // estilizando a imagem direto pelo js
     whatsappIcon.style.width = "45px";
     whatsappIcon.style.height = "40px";
 
